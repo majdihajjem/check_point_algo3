@@ -73,8 +73,8 @@ BEGIN
         END_FOR
     END_FOR
     FOR i FROM 0 TO n-1 STEP 2  DO
-        ps:=dot_product(vecteur[i],vecteur[i+1]);
-        IF (ps=0) THEN
+        pros:=dot_product(vecteur[i],vecteur[i+1]);
+        IF (pros=0) THEN
             write("les deux vecteurs son orthogaunal");
         ELSE
             write("les deux vecteurs ne son pas orthogaunal");
